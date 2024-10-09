@@ -49,8 +49,15 @@ int x = 10;
         Console.WriteLine(x);
         x++;
     }
-*/
 for (int y = 10; y >= 5; y--)
 {
     Console.WriteLine(y);
 }
+*/
+
+int x = 4; 
+int y = 9;
+
+x = (y % x != 0) ? y / x : y;
+
+    Console.WriteLine(x);
